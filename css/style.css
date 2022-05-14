@@ -588,3 +588,21 @@ nav ul li:hover a{
     color: white;
     padding: 10px 0;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+    .grid_desc_left {
+        display: block;
+    }
+    .grid_desc_right {
+        display: block;
+    }
+    .grid_desc_right .rectangle{
+        display: none;
+    }
+    .desc_text{
+        padding: 20px;
+    }
+}
